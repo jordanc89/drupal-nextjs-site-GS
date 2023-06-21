@@ -16,17 +16,17 @@
 const app = document.getElementById('app');
    
 function Header(props) {
-   console.log(props)
+   console.log(title);
     return <h1>Develop. Preview. Ship. 🚀</h1>;
   }
   
   function HomePage() {
     return (
-      <div>
-        <Header title="React 💙" />
-        <Header title="A new title" />
-      </div>
-    );
+    <div>
+      <Header title="React 💙" />
+      <Header title="A new title" />
+    </div>
+  );
   }
   ReactDOM.render(<HomePage />, app);
 </script>    
